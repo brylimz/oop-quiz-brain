@@ -1,16 +1,33 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to "
-             "eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.", "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
-]
-
+    {
+        "category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+        "question": "The retail disc of Tony Hawk&#039;s Pro Skater 5 only comes with the tutorial.",
+        "correct_answer": "True", "incorrect_answers": ["False"]
+    },
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "In &quot;The Sims&quot; series, the most members in a household you can have is 8.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "Unturned originally started as a Roblox game.", "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "In the game &quot;Melty Blood Actress Again Current Code&quot;, you can enter Blood Heat mode in Half Moon style.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "In &quot;Portal 2&quot;, Cave Johnson started out Aperture Science as a shower curtain company.",
+     "correct_answer": "True", "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "In Undertale, having a &quot;Fun Value&quot; set to 56-57 will play the &quot;Wrong Number Song Call&quot;.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "TF2: Sentry rocket damage falloff is calculated based on the distance between the sentry and the enemy, not the engineer and the enemy",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "All of these maps were in &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; on its initial release: House, Clubhouse, Border, Consulate.",
+     "correct_answer": "False", "incorrect_answers": ["True"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "In &quot;Minecraft&quot;, gold tools are faster than diamond tools.", "correct_answer": "True",
+     "incorrect_answers": ["False"]},
+    {"category": "Entertainment: Video Games", "type": "boolean", "difficulty": "hard",
+     "question": "In The Witcher 3, the Zoltan Chivay Gwent card can be found under the Hanged Man&#039;s Tree.",
+     "correct_answer": "True", "incorrect_answers": ["False"]}]
