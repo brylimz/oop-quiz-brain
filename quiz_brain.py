@@ -1,7 +1,8 @@
 import question_model
 
+
 class QuizBrain:
-    def __init__(self, q_list):
+    def __init__(self, q_list, ):
         self.question_number = 0
         self.question_list = q_list
         self.question_score = 0
@@ -21,6 +22,6 @@ class QuizBrain:
             self.question_score += 1
         else:
             print("That's wrong.")
-            print(f"Your current score is {self.question_score}/{self.question_number}")
+        print(f"Your current score is {self.question_score}/{self.question_number}")
         print(f"The correct answer was: {correct_answer}")
-
+        print("\n")
